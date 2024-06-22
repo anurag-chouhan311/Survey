@@ -227,6 +227,45 @@ const Task3 = () => {
           {survey == "technology" && (
             <p>Favourite Programming Language : {techField}</p>
           )}
+          {
+            techArr.length!==0 && 
+            techArr.map((item,index)=>{
+              if(index<3)
+              {
+                return(
+                <p>{item}</p>
+              )
+              }
+            })
+
+            
+          }
+          {
+            HealthArr.length!==0 && 
+            HealthArr.map((item,index)=>{
+              if(index<3)
+              {
+                return(
+                <p>{item}</p>
+              )
+              }
+            })
+
+            
+          }
+          {
+            educationArr.length!==0 && 
+            educationArr.map((item,index)=>{
+              if(index<3)
+              {
+                return(
+                <p>{item}</p>
+              )
+              }
+            })
+
+            
+          }
           {survey == "health" && (
             <>
               <p>Exercise Frequently : {healthField}</p>
