@@ -1,0 +1,36 @@
+{
+    "technology":[
+        {
+            
+            "questions":[
+                "How do computers communicate with each other over the Internet?",
+                "How does Wi-Fi technology connect various devices",
+                "What is the role of open-source software in technology?"
+            ]
+
+        }
+    ]
+,
+    "health":[
+        {
+            
+            "questions":[
+                "How many hours of sleep do you aim for each night?",
+                "What strategies do you use to resist unhealthy food temptations?",
+                "How do you recognize signs of stress, anxiety, or depression in yourself or others?"
+            ]
+
+        }
+    ],
+    "education":[
+        {
+            
+            "questions":[
+                "Do you think that education is important for everyone?",
+                "How will AI change education in the near and distant future?",
+                "What improvements would you like to make to your country’s education system?"
+            ]
+
+        }
+    ]
+}
